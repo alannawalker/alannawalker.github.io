@@ -8,6 +8,7 @@ body{
 #slogan{
 	text-align: "center";
 	font-style: italic;
+	font-size: 14px
 }
 h1,h2,h3,h4,h5,h6{
 	color: #53493f;
@@ -15,5 +16,8 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 400;
 }
 p{
+	font-family: "Arial",sans-serif;
+}
+ul{
 	font-family: "Arial",sans-serif;
 }
