@@ -1,0 +1,19 @@
+body{
+	background: url("/images/rmh-ny-family-portrait.jpg");
+	background-size: cover;
+}
+#headline{
+	text-align: "center";
+}
+#slogan{
+	text-align: "center";
+	font-style: italic;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #53493f;
+	font-family: "alternate-gothic-no-1","Helvetica Neue","Arial","Helvetica",sans-serif;
+	font-weight: 400;
+}
+p{
+	font-family: "Arial",sans-serif;
+}
