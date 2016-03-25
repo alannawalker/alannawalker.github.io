@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
+}
+
+
+body{
+	color: #53493f;
+	font-family:arial, helvetica, sans-serif;
+	font-size:16px; /*1em = 16px*/
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Pathway Gothic One","Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	line-height: 2em;
+	letter-spacing: .05em;
+}
+
+p {
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+header{
+	background: #4892CE;
+}
+
+#logo {
+	height: auto;
+	max-width:10em;
+	float:left;
+}
+
+#donate-button {
+	float:right;
+	border: 0px none;
+	font-family: "Pathway Gothic One","Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	letter-spacing: .05em;
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #ffffff;
+	background:#ed1d2e;
+	margin: 1em;
+}
+
+nav {
+	float: left;
+	margin: 0em 0em 1em 10em;
+}
+
+nav a{
+	font-family: "Pathway Gothic One","Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	line-height: 2em;
+	letter-spacing: .1em;
+	text-decoration: none;
+	color: #fff;
+	margin:1em 0.5em;
+}
+
+#lander {
+	text-align: center;
+}
+
+#headline{
+	font-size: 2em;
+	margin: 1em 0em 0em 0em;
+}
+
+#slogan{
+	font-style: italic;
+	}
+
+#columns {
+	margin: 0 auto;
+}
+
+.tiles{
+	width:30em;
+	margin:2em auto;
+	background-color:#4892CE;
+	color:#fff;
+	float:left;
+	margin: 2em;
+}
+
+.tiles img {
+	width:100%;
+}
+
+.tiles div {
+	color: #fff;
+	padding: 0.5em 1em;
+}
+
+#mission {
+	width:100%;
+	margin:2em auto;
+	background-color:#e3e3e3;
+}
+
+#mission img {
+	display: none;
+	float: left;
+}
+
+#mission div {
+	float: left;
+}
+
+#fundraisingkit {
+	border: 0px none;
+	font-family: "Pathway Gothic One","Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	letter-spacing: .05em;
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #ffffff;
+	background:#ed1d2e;
+	margin: 2em;
+	float: left;
+}
+
+#contact {
+	margin: 10px;
+}
+
+footer {
+	float: left;
+	color: #ffffff;
+	background: #0f4f83;
+	width: 100%;
+	margin: 10px auto 0px;
+}
+
+footer nav {
+	margin: 1em auto 1em;
+}
+
+footer a {
+	font-family: "Pathway Gothic One","Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	letter-spacing: .05em;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+
+.clearfix:after {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+@media only screen and (max-width: 800px){
+	.tiles{
+		float:none;
+		margin: 0 auto;
+	}
+}
+
